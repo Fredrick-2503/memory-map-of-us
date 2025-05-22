@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import { memoryLocations, MemoryLocation, Memory } from "../data/memories";
 import MemoryCarousel from "./MemoryCarousel";
-import { Dialog, DialogContent } from "../components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "../components/ui/dialog";
 import L from 'leaflet';
 import { Heart } from "lucide-react";
 
@@ -49,11 +49,22 @@ const MapAdjuster = ({ location }: { location?: MemoryLocation | null }) => {
   return null;
 };
 
+// Component to get reference to the map
+const MapReference = ({ setMapRef }: { setMapRef: (map: L.Map) => void }) => {
+  const map = useMap();
+  
+  useEffect(() => {
+    setMapRef(map);
+  }, [map, setMapRef]);
+  
+  return null;
+};
+
 const MemoryMap = ({ onToggleAudio, audioEnabled }: MemoryMapProps) => {
   const [selectedLocation, setSelectedLocation] = useState<MemoryLocation | null>(null);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
-  const mapRef = useRef<L.Map | null>(null);
+  const [mapRef, setMapRef] = useState<L.Map | null>(null);
   
   // Initial map center (will be adjusted by MapAdjuster)
   const defaultCenter: [number, number] = [39.8283, -98.5795]; // Center of US
@@ -69,9 +80,9 @@ const MemoryMap = ({ onToggleAudio, audioEnabled }: MemoryMapProps) => {
     setIsDialogOpen(false);
     // Reset map view after dialog closes
     setTimeout(() => {
-      if (mapRef.current) {
+      if (mapRef) {
         const bounds = L.latLngBounds(memoryLocations.map(loc => loc.coordinates));
-        mapRef.current.fitBounds(bounds, {
+        mapRef.fitBounds(bounds, {
           padding: [50, 50],
           animate: true,
           duration: 1.5
@@ -91,7 +102,6 @@ const MemoryMap = ({ onToggleAudio, audioEnabled }: MemoryMapProps) => {
             zoom={4} 
             className="map-container"
             whenReady={() => setMapLoaded(true)}
-            whenCreated={(map) => { mapRef.current = map; }}
           >
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -112,6 +122,9 @@ const MemoryMap = ({ onToggleAudio, audioEnabled }: MemoryMapProps) => {
             
             {/* Map View Adjuster */}
             <MapAdjuster location={selectedLocation} />
+            
+            {/* Map Reference Getter */}
+            <MapReference setMapRef={setMapRef} />
           </MapContainer>
         )}
       </div>
@@ -134,7 +147,7 @@ const MemoryMap = ({ onToggleAudio, audioEnabled }: MemoryMapProps) => {
         <DialogContent className="sm:max-w-[600px] p-0 overflow-hidden bg-white/95 backdrop-blur-md">
           {selectedLocation && (
             <div className="p-4">
-              <h2 className="font-serif text-2xl mb-4 text-center text-love-700">{selectedLocation.name}</h2>
+              <DialogTitle className="font-serif text-2xl mb-4 text-center text-love-700">{selectedLocation.name}</DialogTitle>
               <MemoryCarousel memories={selectedLocation.memories} />
             </div>
           )}
