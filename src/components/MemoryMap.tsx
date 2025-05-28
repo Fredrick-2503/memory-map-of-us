@@ -39,7 +39,7 @@ const MapAdjuster = ({ location }: { location?: MemoryLocation | null }) => {
       // Set the view to include all markers
       const bounds = L.latLngBounds(memoryLocations.map(loc => loc.coordinates));
       map.fitBounds(bounds, {
-        padding: [50, 50],
+        padding: [20, 20],
         animate: true,
         duration: 1.5
       });
@@ -71,15 +71,24 @@ const MemoryMap = ({ onToggleAudio, audioEnabled }: MemoryMapProps) => {
   
   // Handle marker click
   const handleMarkerClick = (location: MemoryLocation) => {
+    setTimeout(() => {
+      setIsDialogOpen(true);
+    }, 1500);
     setSelectedLocation(location);
-    setIsDialogOpen(true);
+    // if (mapRef) {
+    //     const bounds = L.latLngBounds(memoryLocations.map(loc => loc.coordinates));
+    //     mapRef.fitBounds(bounds, {
+    //       padding: [20, 20],
+    //       animate: true,
+    //       duration: 1.5
+    //     });
+    //   }
   };
   
   // Close the dialog
   const handleCloseDialog = () => {
     setIsDialogOpen(false);
     // Reset map view after dialog closes
-    setTimeout(() => {
       if (mapRef) {
         const bounds = L.latLngBounds(memoryLocations.map(loc => loc.coordinates));
         mapRef.fitBounds(bounds, {
@@ -88,7 +97,6 @@ const MemoryMap = ({ onToggleAudio, audioEnabled }: MemoryMapProps) => {
           duration: 1.5
         });
       }
-    }, 300);
   };
   
   return (
@@ -144,7 +152,7 @@ const MemoryMap = ({ onToggleAudio, audioEnabled }: MemoryMapProps) => {
       
       {/* Memory Dialog */}
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent className="sm:max-w-[600px] p-0 overflow-hidden bg-white/95 backdrop-blur-md">
+        <DialogContent className="sm:max-w-[600px] p-0 overflow-hidden bg-white/95 backdrop-blur-md z-[1050]">
           {selectedLocation && (
             <div className="p-4">
               <DialogTitle className="font-serif text-2xl mb-4 text-center text-love-700">{selectedLocation.name}</DialogTitle>

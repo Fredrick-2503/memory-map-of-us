@@ -10,12 +10,14 @@ const Index = () => {
   
   // Function to handle entering the map
   const handleEnterMap = () => {
+    setAudioEnabled(true);
     setEntered(true);
   };
   
   // Function to toggle background music
   const handleToggleAudio = () => {
     setAudioEnabled(!audioEnabled);
+    console.log("playing")
   };
   
   return (
@@ -26,9 +28,12 @@ const Index = () => {
         <div className="animate-fade-in h-full w-full">
           <MemoryMap onToggleAudio={handleToggleAudio} audioEnabled={audioEnabled} />
         </div>
+        
       )}
       
-      {audioEnabled && <AudioPlayer />}
+      {/* {audioEnabled && <AudioPlayer />} */}
+      <AudioPlayer isPlaying={audioEnabled} />
+
     </div>
   );
 };
