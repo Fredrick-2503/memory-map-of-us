@@ -64,7 +64,7 @@ const MemoryCarousel = ({ memories }: MemoryCarouselProps) => {
           <CardContent className="p-0">
             {/* Image */}
             <div className="relative h-[300px] w-full overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center bg-gray-200">
+              {/* <div className="absolute inset-0 flex items-center justify-center bg-gray-200">
                 <Heart className="w-12 h-12 text-love-200 animate-pulse-gentle" fill="currentColor" />
               </div>
               <img
@@ -75,7 +75,7 @@ const MemoryCarousel = ({ memories }: MemoryCarouselProps) => {
                   // If image fails to load, show a placeholder
                   e.currentTarget.src = "/placeholder.svg";
                 }}
-              />
+              /> */}
               
               {currentMemory.quote && (
                 <div className="absolute bottom-0 left-0 right-0 p-3 bg-black/30 backdrop-blur-sm">
@@ -102,13 +102,13 @@ const MemoryCarousel = ({ memories }: MemoryCarouselProps) => {
               </p>
               
               {/* Special message on last slide */}
-              {isLastMemory && (
+              {/* {isLastMemory && (
                 <div className="mt-4 p-3 border border-dashed border-love-300 rounded-lg bg-love-100/50">
                   <p className="text-center font-handwritten text-love-700 text-lg">
                     Thank you for being my favorite memory.
                   </p>
                 </div>
-              )}
+              )} */}
             </div>
           </CardContent>
         </Card>

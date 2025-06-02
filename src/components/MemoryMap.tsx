@@ -152,9 +152,9 @@ const MemoryMap = ({ onToggleAudio, audioEnabled }: MemoryMapProps) => {
       
       {/* Memory Dialog */}
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent className="sm:max-w-[600px] p-0 overflow-hidden bg-white/95 backdrop-blur-md z-[1050]">
+        <DialogContent className="sm:max-w-[600px] p-0 overflow-auto bg-white/95 backdrop-blur-md z-[1050]">
           {selectedLocation && (
-            <div className="p-4">
+            <div className="p-4 sm:max-w-[600px]">
               <DialogTitle className="font-serif text-2xl mb-4 text-center text-love-700">{selectedLocation.name}</DialogTitle>
               <MemoryCarousel memories={selectedLocation.memories} />
             </div>
