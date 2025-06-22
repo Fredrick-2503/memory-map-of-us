@@ -83,294 +83,294 @@ export const memoryLocations: MemoryLocation[] = [
         "quote": "The road streched endlessly,but time stood still with you on my cycle."
       }
     ]
-  },
-  {
-    "id": "cfbd079e-0fc8-4ed3-8429-c83ce08e383e",
-    "name": "Sapna Book house",
-    "coordinates": [
-      12.93641178535703,
-      77.61645597322531
-    ],
-    "memories": [
-      {
-        "id": "463672f7-ed3d-424c-8a7a-56d0feb89679",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "e2db4ebb-e91d-4ed4-8068-c504bcfb45c1",
-    "name": "Centro mall",
-    "coordinates": [
-      12.916629171942214,
-      77.59234671043451
-    ],
-    "memories": [
-      {
-        "id": "fe10d23b-d727-4b96-b430-f93629cc185c",
-        "title": "1",
-        "description": "11",
-        "image": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "81d3bae0-c58a-4098-bb84-87bd4bb1ea61",
-    "name": "Christ College",
-    "coordinates": [
-      12.934690986363215,
-      77.60590778990831
-    ],
-    "memories": [
-      {
-        "id": "8d22e17f-f924-483a-a26d-ba4d46c2785a",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "3cf57ae7-ddf4-455a-ba89-78221f5745cf",
-    "name": "St.Josephs college ",
-    "coordinates": [
-      12.962425131611521,
-      77.59651436028976
-    ],
-    "memories": [
-      {
-        "id": "28f8efa6-ae86-4241-a3b2-824068f3cca3",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "c0d145a4-0e39-4bad-9fca-95f93a87ec15",
-    "name": "Lalbagh",
-    "coordinates": [
-      12.95128837969613,
-      77.58537215507184
-    ],
-    "memories": [
-      {
-        "id": "3da44dd8-756c-4edf-9d07-262dc43d4947",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "c31b5b21-499c-4796-a2dc-2b19982e0ed4",
-    "name": "St.Marys Basilica, Shivaginagar",
-    "coordinates": [
-      12.984279903864286,
-      77.6044699537223
-    ],
-    "memories": [
-      {
-        "id": "a0879cdd-4a28-4373-a89e-a4114614c58f",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "05a98a83-eeff-45c9-95a1-68672ca6ba75",
-    "name": "Cubbon park",
-    "coordinates": [
-      12.977620011288474,
-      77.59759322776674
-    ],
-    "memories": [
-      {
-        "id": "144991db-ef81-421b-8981-3e77b50335a6",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "23a7e5a2-7bb2-42fd-b080-cd7349aa4ab6",
-    "name": "Bal bhavan ",
-    "coordinates": [
-      12.976912431521002,
-      77.59658108063024
-    ],
-    "memories": [
-      {
-        "id": "df10e837-5b48-4d21-bc30-87fe0c0a6af3",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "68fbaa6c-e6dd-43c0-9318-1dc9af41170d",
-    "name": "New Horizon College of Engineering",
-    "coordinates": [
-      12.93374765303481,
-      77.69177592733625
-    ],
-    "memories": [
-      {
-        "id": "ea36cd92-f435-41c5-a7d8-8c512b054083",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "a919198a-3c8e-44f7-8e9c-2beb4b8b66b5",
-    "name": "First bike ride",
-    "coordinates": [
-      12.932120905062199,
-      77.69185484960774
-    ],
-    "memories": [
-      {
-        "id": "d2586c6f-b9a4-48d4-ab0c-0dd3f2313a0e",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "614bce9a-a36e-47d8-9c91-80e4366653c9",
-    "name": "Agara",
-    "coordinates": [
-      12.92406575253915,
-      77.6507320855773
-    ],
-    "memories": [
-      {
-        "id": "f190ba91-cda1-4336-b369-7e38e7b6bbbd",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "39005ea7-ee9b-4834-b04b-0f60d557ed67",
-    "name": "Divinity mall",
-    "coordinates": [
-      12.940533216161914,
-      77.52479647227882
-    ],
-    "memories": [
-      {
-        "id": "ecf4edc1-000c-4bf7-a8a7-da2a0d187174",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "0eef239e-8f2c-40f6-a231-1b77350e5ea4",
-    "name": "Double decker",
-    "coordinates": [
-      12.906404649689822,
-      77.58059158025182
-    ],
-    "memories": [
-      {
-        "id": "eaddf9b2-bfc9-4f57-bf59-5620d728f089",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "8fc51f24-a09d-492b-b64a-a624e6a0238e",
-    "name": "Olive Street Caf\u00e9",
-    "coordinates": [
-      12.912539756807897,
-      77.65340213314585
-    ],
-    "memories": [
-      {
-        "id": "e663f49e-7acc-406d-8909-42182250b56f",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "eef18466-4fac-4d97-a692-e94115d1df7b",
-    "name": "Commercial street ",
-    "coordinates": [
-      12.98214276959929,
-      77.60854835308056
-    ],
-    "memories": [
-      {
-        "id": "36c23653-edc0-4910-8f2a-22b0a95bb023",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
-  },
-  {
-    "id": "092bd6bb-ffb1-427b-abb2-dea017c857ea",
-    "name": "National college ",
-    "coordinates": [
-      12.951002255785006,
-      77.57324568717227
-    ],
-    "memories": [
-      {
-        "id": "7e9ba08c-a90a-4f80-91f5-6498675eabfb",
-        "title": "1",
-        "description": "1",
-        "image": "1",
-        "date": "1",
-        "quote": "1"
-      }
-    ]
   }
+  // {
+  //   "id": "cfbd079e-0fc8-4ed3-8429-c83ce08e383e",
+  //   "name": "Sapna Book house",
+  //   "coordinates": [
+  //     12.93641178535703,
+  //     77.61645597322531
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "463672f7-ed3d-424c-8a7a-56d0feb89679",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "e2db4ebb-e91d-4ed4-8068-c504bcfb45c1",
+  //   "name": "Centro mall",
+  //   "coordinates": [
+  //     12.916629171942214,
+  //     77.59234671043451
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "fe10d23b-d727-4b96-b430-f93629cc185c",
+  //       "title": "1",
+  //       "description": "11",
+  //       "image": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "81d3bae0-c58a-4098-bb84-87bd4bb1ea61",
+  //   "name": "Christ College",
+  //   "coordinates": [
+  //     12.934690986363215,
+  //     77.60590778990831
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "8d22e17f-f924-483a-a26d-ba4d46c2785a",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "3cf57ae7-ddf4-455a-ba89-78221f5745cf",
+  //   "name": "St.Josephs college ",
+  //   "coordinates": [
+  //     12.962425131611521,
+  //     77.59651436028976
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "28f8efa6-ae86-4241-a3b2-824068f3cca3",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "c0d145a4-0e39-4bad-9fca-95f93a87ec15",
+  //   "name": "Lalbagh",
+  //   "coordinates": [
+  //     12.95128837969613,
+  //     77.58537215507184
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "3da44dd8-756c-4edf-9d07-262dc43d4947",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "c31b5b21-499c-4796-a2dc-2b19982e0ed4",
+  //   "name": "St.Marys Basilica, Shivaginagar",
+  //   "coordinates": [
+  //     12.984279903864286,
+  //     77.6044699537223
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "a0879cdd-4a28-4373-a89e-a4114614c58f",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "05a98a83-eeff-45c9-95a1-68672ca6ba75",
+  //   "name": "Cubbon park",
+  //   "coordinates": [
+  //     12.977620011288474,
+  //     77.59759322776674
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "144991db-ef81-421b-8981-3e77b50335a6",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "23a7e5a2-7bb2-42fd-b080-cd7349aa4ab6",
+  //   "name": "Bal bhavan ",
+  //   "coordinates": [
+  //     12.976912431521002,
+  //     77.59658108063024
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "df10e837-5b48-4d21-bc30-87fe0c0a6af3",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "68fbaa6c-e6dd-43c0-9318-1dc9af41170d",
+  //   "name": "New Horizon College of Engineering",
+  //   "coordinates": [
+  //     12.93374765303481,
+  //     77.69177592733625
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "ea36cd92-f435-41c5-a7d8-8c512b054083",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "a919198a-3c8e-44f7-8e9c-2beb4b8b66b5",
+  //   "name": "First bike ride",
+  //   "coordinates": [
+  //     12.932120905062199,
+  //     77.69185484960774
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "d2586c6f-b9a4-48d4-ab0c-0dd3f2313a0e",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "614bce9a-a36e-47d8-9c91-80e4366653c9",
+  //   "name": "Agara",
+  //   "coordinates": [
+  //     12.92406575253915,
+  //     77.6507320855773
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "f190ba91-cda1-4336-b369-7e38e7b6bbbd",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "39005ea7-ee9b-4834-b04b-0f60d557ed67",
+  //   "name": "Divinity mall",
+  //   "coordinates": [
+  //     12.940533216161914,
+  //     77.52479647227882
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "ecf4edc1-000c-4bf7-a8a7-da2a0d187174",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "0eef239e-8f2c-40f6-a231-1b77350e5ea4",
+  //   "name": "Double decker",
+  //   "coordinates": [
+  //     12.906404649689822,
+  //     77.58059158025182
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "eaddf9b2-bfc9-4f57-bf59-5620d728f089",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "8fc51f24-a09d-492b-b64a-a624e6a0238e",
+  //   "name": "Olive Street Caf\u00e9",
+  //   "coordinates": [
+  //     12.912539756807897,
+  //     77.65340213314585
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "e663f49e-7acc-406d-8909-42182250b56f",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "eef18466-4fac-4d97-a692-e94115d1df7b",
+  //   "name": "Commercial street ",
+  //   "coordinates": [
+  //     12.98214276959929,
+  //     77.60854835308056
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "36c23653-edc0-4910-8f2a-22b0a95bb023",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "id": "092bd6bb-ffb1-427b-abb2-dea017c857ea",
+  //   "name": "National college ",
+  //   "coordinates": [
+  //     12.951002255785006,
+  //     77.57324568717227
+  //   ],
+  //   "memories": [
+  //     {
+  //       "id": "7e9ba08c-a90a-4f80-91f5-6498675eabfb",
+  //       "title": "1",
+  //       "description": "1",
+  //       "image": "1",
+  //       "date": "1",
+  //       "quote": "1"
+  //     }
+  //   ]
+  // }
 ];
 // Note: Replace these placeholder images with your actual images
 // Store them in public/images/ folder, and update the paths accordingly
