@@ -48,7 +48,7 @@ const LandingScreen = ({ onEnter, onToggleAudio, audioEnabled }: LandingScreenPr
       
       <div className="max-w-2xl text-center z-10 bg-white/30 backdrop-blur-sm p-10 rounded-2xl shadow-xl">
         <h1 className="font-handwritten text-4xl md:text-6xl mb-8 text-love-700">
-          The Map of Us
+          The Map of Us fkjsdfla
         </h1>
         
         <p className="font-serif text-xl md:text-2xl mb-6 text-foreground/90">
