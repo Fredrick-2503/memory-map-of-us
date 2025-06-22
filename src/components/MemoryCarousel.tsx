@@ -78,9 +78,9 @@ const MemoryCarousel = ({ memories }: MemoryCarouselProps) => {
               /> */}
               
               {currentMemory.quote && (
-                <div className="absolute bottom-0 left-0 right-0 p-3 bg-black/30 backdrop-blur-sm">
-                  <p className="text-white font-handwritten text-lg text-center">
-                    "{currentMemory.quote}"
+                <div className="absolute bottom-0 left-0 right-0 p-3 bg-[#DCE3F2]/50 backdrop-blur-sm">
+                  <p className="text-love-700 font-handwritten text-2xl text-center tracking-[0.05em]">
+                    {currentMemory.quote}
                   </p>
                 </div>
               )}
