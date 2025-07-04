@@ -63,7 +63,7 @@ const MemoryCarousel = ({ memories }: MemoryCarouselProps) => {
         <Card className="overflow-hidden border-none bg-white/60 backdrop-blur-sm shadow-lg">
           <CardContent className="p-0">
             {/* Image */}
-            <div className="relative h-[100px] w-full overflow-hidden">
+            <div className="relative max-h-fit min-h-fit w-full overflow-auto">
               {/* <div className="absolute inset-0 flex items-center justify-center bg-gray-200">
                 <Heart className="w-12 h-12 text-love-200 animate-pulse-gentle" fill="currentColor" />
               </div>
@@ -78,7 +78,7 @@ const MemoryCarousel = ({ memories }: MemoryCarouselProps) => {
               /> */}
               
               {currentMemory.quote && (
-                <div className="absolute bottom-0 left-0 right-0 p-3 bg-[#DCE3F2]/50 backdrop-blur-sm">
+                <div className=" h-fit  p-3 bg-[#DCE3F2]/50 backdrop-blur-sm">
                   <p className="text-love-700 font-handwritten text-2xl text-center tracking-[0.05em]">
                     {currentMemory.quote}
                   </p>
