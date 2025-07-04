@@ -275,7 +275,7 @@ export const memoryLocations: MemoryLocation[] = [
         "title": "Those temple stairs didn’t just carry our feet — they lifted our love into something divine",
         "description": "A date fresh in our hearts. Those lil talk and walks we took.The time spent felt it was our world,the unexpected match of our dress,The walk into the temple hlding your hand.The nervous step i kept to match Yours.The way you said 'Kelkond ede nanna muddu na jothe baro thara madu'..... that sprak in ur eyes was the satisfaction in my eyes.It was a day meant for us ❤️😌✨",
         "image": "1",
-        "quote": "1"
+        "quote": "In every step we climbed, love itself awakened — as if the temple breathed life into what we already held in our hearts."
       }
     ]
   },
