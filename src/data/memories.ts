@@ -83,7 +83,7 @@ export const memoryLocations: MemoryLocation[] = [
         "quote": "The road streched endlessly,but time stood still with you on my cycle."
       }
     ]
-  }
+  },
   // {
   //   "id": "cfbd079e-0fc8-4ed3-8429-c83ce08e383e",
   //   "name": "Sapna Book house",
@@ -173,24 +173,24 @@ export const memoryLocations: MemoryLocation[] = [
   //     }
   //   ]
   // },
-  // {
-  //   "id": "c31b5b21-499c-4796-a2dc-2b19982e0ed4",
-  //   "name": "St.Marys Basilica, Shivaginagar",
-  //   "coordinates": [
-  //     12.984279903864286,
-  //     77.6044699537223
-  //   ],
-  //   "memories": [
-  //     {
-  //       "id": "a0879cdd-4a28-4373-a89e-a4114614c58f",
-  //       "title": "1",
-  //       "description": "1",
-  //       "image": "1",
-  //       "date": "1",
-  //       "quote": "1"
-  //     }
-  //   ]
-  // },
+  {
+    "id": "c31b5b21-499c-4796-a2dc-2b19982e0ed4",
+    "name": "St.Marys Basilica, Shivaginagar",
+    "coordinates": [
+      12.984279903864286,
+      77.6044699537223
+    ],
+    "memories": [
+      {
+        "id": "a0879cdd-4a28-4373-a89e-a4114614c58f",
+        "title": "With My Love in the Divine Presence",
+        "description": "The warm glow of the candles mirrored the softness in your eyes, and the stained glass above seemed to paint blessings across your face. In that holy silence, I didn’t need to speak — because love was already praying through my soul.",
+        "image": "1",
+        "date": "1",
+        "quote": "In the presence of the divine, our hearts aligned — not just in love, but in something eternal. That day, we were not just together; we were blessed into forever."
+      }
+    ]
+  },
   // {
   //   "id": "05a98a83-eeff-45c9-95a1-68672ca6ba75",
   //   "name": "Cubbon park",
@@ -263,24 +263,24 @@ export const memoryLocations: MemoryLocation[] = [
   //     }
   //   ]
   // },
-  // {
-  //   "id": "614bce9a-a36e-47d8-9c91-80e4366653c9",
-  //   "name": "Agara",
-  //   "coordinates": [
-  //     12.92406575253915,
-  //     77.6507320855773
-  //   ],
-  //   "memories": [
-  //     {
-  //       "id": "f190ba91-cda1-4336-b369-7e38e7b6bbbd",
-  //       "title": "1",
-  //       "description": "1",
-  //       "image": "1",
-  //       "date": "1",
-  //       "quote": "1"
-  //     }
-  //   ]
-  // },
+  {
+    "id": "614bce9a-a36e-47d8-9c91-80e4366653c9",
+    "name": "Agara",
+    "coordinates": [
+      12.92406575253915,
+      77.6507320855773
+    ],
+    "memories": [
+      {
+        "id": "f190ba91-cda1-4336-b369-7e38e7b6bbbd",
+        "title": "Those temple stairs didn’t just carry our feet — they lifted our love into something divine",
+        "description": "A date fresh in our hearts. Those lil talk and walks we took.The time spent felt it was our world,the unexpected match of our dress,The walk into the temple hlding your hand.The nervous step i kept to match Yours.The way you said 'Kelkond ede nanna muddu na jothe baro thara madu'..... that sprak in ur eyes was the satisfaction in my eyes.It was a day meant for us ❤️😌✨",
+        "image": "1",
+        "date": "1",
+        "quote": "1"
+      }
+    ]
+  },
   // {
   //   "id": "39005ea7-ee9b-4834-b04b-0f60d557ed67",
   //   "name": "Divinity mall",
@@ -345,11 +345,11 @@ export const memoryLocations: MemoryLocation[] = [
   //   "memories": [
   //     {
   //       "id": "36c23653-edc0-4910-8f2a-22b0a95bb023",
-  //       "title": "1",
-  //       "description": "1",
+  //       "title": "The Calm Love in the Bustling shops of the street",
+  //       "description": "An unexpected date,Just before your camp.....",
   //       "image": "1",
   //       "date": "1",
-  //       "quote": "1"
+  //       "quote": "In the midst of noise and neon, it was your hand in mine that made the world slow down."
   //     }
   //   ]
   // },
