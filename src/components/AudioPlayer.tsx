@@ -45,7 +45,7 @@ const AudioPlayer: React.FC<Props> = ({ isPlaying }) => {
 
   useEffect(() => {
     if (!audioRef.current) {
-      const audio = new Audio("/background.mp3"); // use .mp3 for broad support
+      const audio = new Audio("/mix.mp3"); // use .mp3 for broad support
       audio.loop = true;
       audio.volume = 1;
       audioRef.current = audio;
