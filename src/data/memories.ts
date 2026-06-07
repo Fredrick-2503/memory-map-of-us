@@ -1,4 +1,3 @@
-
 export interface Memory {
   id: string;
   title: string;
@@ -11,24 +10,21 @@ export interface Memory {
 export interface MemoryLocation {
   id: string;
   name: string;
-  coordinates: [number, number]; // [latitude, longitude]
+  coordinates: [number, number];
   memories: Memory[];
 }
 
 export const memoryLocations: MemoryLocation[] = [
   {
     "id": "60d1b6dd-77a3-45d8-8587-34714cd58d13",
-    "name": "St.Francis High School ",
-    "coordinates": [
-      12.925275371121932,
-      77.62915847029555
-    ],
+    "name": "St.Francis High School",
+    "coordinates": [12.925275371121932, 77.62915847029555],
     "memories": [
       {
         "id": "962ab38e-45ca-4202-9f3a-d4afe5862f4c",
         "title": "When love was new and everything felt endless",
-        "description": "Bound between 4 walls and school corridors, our love bloomed amidst those notebooks. When sharing a bench without a bag in between felt romantic, Lil closeness in class gave butterflies.  Enna nenp edye chinni nin ahh modle blush, Modle nangu, nan eldhe ning athid dinnagalu surprise agi band agi nambok agdhe thapkond edhu. Modlene sparshake mudidhe mugilunage parthi ondu enna achehakidhe. Jagathe thildhe ero yavasighe mudidha preeti edu.  Enna fresh ede \u2014 \"Do uh love me ge\" dare ah antha kelidhu.  Ennu I stare at the window, That bench where our love started.  This is our school, Where every wall is painted with our love, And the bench holds special memories of us.  Nenap ede adith truth or dare, Nenp ede koth ahh modle ne kiss. Nanp ede modlne sparsha.",
-        "image": "/.jpg",
+        "description": "Bound between 4 walls and school corridors, our love bloomed amidst those notebooks. When sharing a bench without a bag in between felt romantic, Lil closeness in class gave butterflies.  Enna nenp edye chinni nin ahh modle blush, Modle nangu, nan eldhe ning athid dinnagalu surprise agi band agi nambok agdhe thapkond edhu. Modlene sparshake mudidhe mugilunage parthi ondu enna achehakidhe. Jagathe thildhe ero yavasighe mudidha preeti edu.  Enna fresh ede — \"Do uh love me ge\" dare ah antha kelidhu.  Ennu I stare at the window, That bench where our love started.  This is our school, Where every wall is painted with our love, And the bench holds special memories of us.  Nenap ede adith truth or dare, Nenp ede koth ahh modle ne kiss. Nanp ede modlne sparsha.",
+        "image": "/images/st_francis_high.jpg",
         "quote": "Corrider Glances and Stolen time behind school walls"
       }
     ]
@@ -36,51 +32,56 @@ export const memoryLocations: MemoryLocation[] = [
   {
     "id": "64589c76-13b9-42d8-9358-d05737e2a6df",
     "name": "St.Francis Composite Pu college",
-    "coordinates": [
-      12.927304904319707,
-      77.63027113586817
-    ],
+    "coordinates": [12.927304904319707, 77.63027113586817],
     "memories": [
       {
         "id": "62fb75c4-72ca-42bd-9835-28065e93af8b",
         "title": "When every song felt like ours",
-        "description": " Unexpected Union,Unseperable bound. Nan bestie sikidh PU college edu.A First bench idoit with a crazy back bencher\ud83d\ude1c.Golden period with million memories and billion dreams.Prathi kshana nin jothe kaldhidhu maryak agdhe ero asht huch agidhe, Uh were a day dream to me every song would hum ur name every detail would draw me to you.Those rainy days and romantic walk lil walk meaning our everything my cycle being our ratha \ud83d\udc95 Its been the golden period of our bound.",
-        "image": "/.jpg",
+        "description": "Unexpected Union, Unseperable bound. Nan bestie sikidh PU college edu. A First bench idoit with a crazy back bencher 😜. Golden period with million memories and billion dreams. Prathi kshana nin jothe kaldhidhu maryak agdhe ero asht huch agidhe, Uh were a day dream to me every song would hum ur name every detail would draw me to you. Those rainy days and romantic walk lil walk meaning our everything my cycle being our ratha 💕 Its been the golden period of our bound.",
+        "image": "/images/st_francis_pu.jpg",
         "quote": "The kind of Love that felt like a movie even if it was just lunch breaks and long texts"
+      },
+      {
+        "id": "c93b7a1d-8e4f-4b2c-9a1d-5c6e7f8a9b0c",
+        "title": "Classroom Secrets",
+        "description": "The golden days weren't just about innocent walks and lectures. In those quiet, stolen moments inside empty classrooms, our playful and passionate side came alive. The way you would quickly shift your uniform to tease me with a beautiful, naughty flash of your bare skin, and I’d excitedly share my own intimate reveals in return. It was our heart-racing little game—a secret, thrilling connection shared just between us before the halls filled up again. A perfect, fiery mix of sweet romance and growing desire.",
+        "image": "/images/pu_empty_class.jpg",
+        "quote": "A secret world of playful teasing, hidden right behind the desks of an empty classroom."
       }
     ]
   },
   {
     "id": "17b10f61-5067-4c5e-a346-3eb77cd1e074",
     "name": "Giraffe Tution centre",
-    "coordinates": [
-      12.934902963538983,
-      77.61241091957339
-    ],
+    "coordinates": [12.934902963538983, 77.61241091957339],
     "memories": [
       {
         "id": "29ba586c-b056-4f2b-83e1-7da13a15f4d0",
-        "title": "Romance hidden behind beyond corners",
-        "description": "My Loves best venue a place that witnessed a million butterflies.Our unoin again after a short break after college,Those lil snacks breaks around the tuttion.Kachori galu coffee. Those walks after tutions our bunks to mall.Our autrocities in tution.Our 1st challege prathi ondhu witness madid place still quenched with our LOVE \u2764",
-        "image": "/.jpg",
-        "quote": "Love brewed between lectures and evening coffees"
+        "title": "Romance in the Corners",
+        "description": "The venue that witnessed a million butterflies. Reunited after college, sneaking out for kachori and coffee breaks. Every walk after tuition, every bunk to the mall, and every little challenge we faced—this place is completely quenched with our love.",
+        "image": "/images/giraffe_tuition.jpg",
+        "quote": "Love brewed between lectures and evening coffees."
+      },
+      {
+        "id": "b82f9e4c-1d7a-4c3b-9e2f-5a6b7c8d9e0f",
+        "title": "Stairwell Secrets",
+        "description": "The real thrill of the tuition building was what we did in the shadows. Sneaking into the empty lift or pulling you into a dark, secluded corner on the stairs, the adrenaline was intoxicating. The rush of pulling your top down to suck your breasts, slipping my fingers wet and deep inside you, or feeling your warm mouth wrap around me for a quick, sloppy blowjob while praying no one would walk by. Pure, electric heat and unadulterated lust hidden right out in the open.",
+        "image": "/images/giraffe_stairs.jpg",
+        "quote": "The hottest thrills were the ones we stole in the dark, quiet corners of the stairwell."
       }
     ]
   },
   {
     "id": "e935650b-64e4-4797-a78e-e0ed51a22521",
     "name": "Cycle Rides",
-    "coordinates": [
-      12.936469136322064,
-      77.61455289722075
-    ],
+    "coordinates": [12.936469136322064, 77.61455289722075],
     "memories": [
       {
         "id": "9cf1086f-74ce-4e3a-bd80-133296698dd0",
         "title": "Spokes spinning,Hearts racing",
-        "description": "Those cycles riding we went on etching our love on every road we rode,Nenna nan arms madhe me leading our ways,preethi ali kaldogthidhe ninna hang kursi karkond hogo ahhh kushi no prathi dinna nenp aguthe.\ud83d\ude0aEnna i wanna relive them kane. RETEO love kinda feel ur presence brightening my soul. These ride hold a really special place\ud83d\udc96",
-        "image": "/.jpg",
-        "quote": "The road streched endlessly,but time stood still with you on my cycle."
+        "description": "Those cycles riding we went on etching our love on every road we rode, Nenna nan arms madhe me leading our ways, preethi ali kaldogthidhe ninna hang kursi karkond hogo ahhh kushi no prathi dinna nenp aguthe. 😊 Enna i wanna relive them kane. RETEO love kinda feel ur presence brightening my soul. These ride hold a really special place 💖",
+        "image": "/images/cycle_rides.jpg",
+        "quote": "The road streched endlessly, but time stood still with you on my cycle."
       }
     ]
   },
@@ -155,6 +156,20 @@ export const memoryLocations: MemoryLocation[] = [
     ]
   },
   {
+    "id": "c31b5b21-499c-4796-a2dc-2b19982e0ed4",
+    "name": "St.Marys Basilica, Shivaginagar",
+    "coordinates": [12.984279903864286, 77.6044699537223],
+    "memories": [
+      {
+        "id": "a0879cdd-4a28-4373-a89e-a4114614c58f",
+        "title": "With My Love in the Divine Presence",
+        "description": "The warm glow of the candles mirrored the softness in your eyes, and the stained glass above seemed to paint blessings across your face. In that holy silence, I didn’t need to speak — because love was already praying through my soul.",
+        "image": "/images/st_marys.jpg",
+        "quote": "In the presence of the divine, our hearts aligned — not just in love, but in something eternal. That day, we were not just together; we were blessed into forever."
+      }
+    ]
+  },
+  {
     "id": "05a98a83-eeff-45c9-95a1-68672ca6ba75",
     "name": "Cubbon park",
     "coordinates": [12.977620011288474, 77.59759322776674],
@@ -211,6 +226,20 @@ export const memoryLocations: MemoryLocation[] = [
     ]
   },
   {
+    "id": "614bce9a-a36e-47d8-9c91-80e4366653c9",
+    "name": "Agara Jaganath Temple",
+    "coordinates": [12.92406575253915, 77.6507320855773],
+    "memories": [
+      {
+        "id": "f190ba91-cda1-4336-b369-7e38e7b6bbbd",
+        "title": "Those temple stairs didn’t just carry our feet — they lifted our love into something divine",
+        "description": "A date fresh in our hearts. Those lil talk and walks we took. The time spent felt it was our world, the unexpected match of our dress, The walk into the temple hlding your hand. The nervous step i kept to match Yours. The way you said 'Kelkond ede nanna muddu na jothe baro thara madu'..... that sprak in ur eyes was the satisfaction in my eyes. It was a day meant for us ❤️😌✨",
+        "image": "/images/agara_temple.jpg",
+        "quote": "In every step we climbed, love itself awakened — as if the temple breathed life into what we already held in our hearts."
+      }
+    ]
+  },
+  {
     "id": "39005ea7-ee9b-4834-b04b-0f60d557ed67",
     "name": "Divinity mall",
     "coordinates": [12.940533216161914, 77.52479647227882],
@@ -240,7 +269,7 @@ export const memoryLocations: MemoryLocation[] = [
   },
   {
     "id": "8fc51f24-a09d-492b-b64a-a624e6a0238e",
-    "name": "Olive Café HSR",
+    "name": "Olive Street Café",
     "coordinates": [12.912539756807897, 77.65340213314585],
     "memories": [
       {
@@ -315,10 +344,38 @@ export const memoryLocations: MemoryLocation[] = [
     "memories": [
       {
         "id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
-        "title": "Boundless Passion",
-        "description": "In the quiet privacy of our room, all walls fell away. Our intimate surrender was a beautiful, burning collision of souls and skin—where every heated touch was a promise, and every tangled breath a vow of deep, fiery love.",
-        "image": "/images/private_retreat.jpg",
-        "quote": "When the world faded, it was just the heat of you and me, perfectly entwined."
+        "title": "Raw Release",
+        "description": "Finally behind closed doors after all the house struggles, we didn't hold back at all. We stripped away our clothes and fell right into the sheets. The raw sex was exactly what we had been craving. Feeling your bare legs wrap tight around me as our bodies moved together, sweating and chasing that intense climax, was absolute perfection.",
+        "image": "/images/private_retreat_1.jpg",
+        "quote": "Nothing between us but skin, sweat, and pure sexual heat."
+      },
+      {
+        "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+        "title": "Unwrapping the Green Saree",
+        "description": "I asked you to wear that stunning green saree, and seeing the way it hugged your curves drove me completely insane. Slowly unwrapping those yards of fabric to reveal your bare skin underneath was the ultimate tease. Fucking you with that gorgeous green silk tangled around our sweaty bodies made the sex feel incredibly primal, passionate, and deeply possessive.",
+        "image": "/images/private_retreat_saree.jpg",
+        "quote": "Unwrapping you like the ultimate prize, lost in the folds of silk and raw desire."
+      },
+      {
+        "id": "f6e5d4c3-b2a1-4098-b7c6-d5e4f3a2b1c0",
+        "title": "Blindfolded Anticipation",
+        "description": "You took complete control that day, Chinni. Blindfolding me so I couldn't see, I could only feel you stripping down to that matching bra and panty set. Feeling you straddle me, slowly grinding and teasing my body while I was completely at your mercy, sent my anticipation through the roof. The intense heat of your wetness and the tight, commanding way you sat on me and rode me made it a mind-blowing session.",
+        "image": "/images/private_retreat_blindfold.jpg",
+        "quote": "Robbed of my sight, every touch from you felt like a bolt of lightning."
+      },
+      {
+        "id": "11223344-5566-4778-99aa-bbccddeeff00",
+        "title": "Shower Surrender",
+        "description": "We couldn't even make it to the bed for this round. Dragging each other into the shower, the hot water beating down on our naked bodies only fueled the intense fire between us. Pressing you against the slick, wet tiles, feeling your legs wrap tight around my waist as I thrusted deep inside you. Slippery, wet, and incredibly raw—it was pure, unfiltered lust.",
+        "image": "/images/private_retreat_shower.jpg",
+        "quote": "Hot water and hotter bodies, completely consumed by the rush."
+      },
+      {
+        "id": "aabbccdd-eeff-4112-2334-455667788990",
+        "title": "Morning Heat",
+        "description": "There is nothing quite like waking up to the warmth of your naked body pressed heavily against mine. Before we even spoke a word, my hands were exploring your curves. Slow, deep, and incredibly intimate morning sex, feeling every sleepy moan and tight squeeze as we slowly built up to a perfect, trembling climax. The absolute best way to start the day.",
+        "image": "/images/private_retreat_morning.jpg",
+        "quote": "Waking up inside my favorite dream, with you completely wrapped around me."
       }
     ]
   },
@@ -431,6 +488,13 @@ export const memoryLocations: MemoryLocation[] = [
         "description": "Our second picturesque stop after Ramadevara Betta. Standing by the expansive, calm waters with the gentle breeze brushing against us made for a picture-perfect moment together.",
         "image": "/images/manchanabele_dam.jpg",
         "quote": "Still waters run deep, just like the love I hold for you."
+      },
+      {
+        "id": "a5b6c7d8-e9f0-1a2b-3c4d-5e6f7a8b9c0d",
+        "title": "Lakeside Heat",
+        "description": "We sat down on the bank for a quiet lunch, but my appetite quickly shifted entirely to you. I started squeezing and playing with your breasts right there in the open air. The thrill of it turned you on so much that you didn't even care—you just impulsively stripped off your top and pushed your bare breasts right into my mouth. The rush of your urgent desire and tasting your hot skin by the water completely took over our afternoon.",
+        "image": "/images/manchanabele_lunch.jpg",
+        "quote": "A quiet lunch by the bank turned into a breathless, open-air feast of bare skin and raw desire."
       }
     ]
   },
@@ -459,6 +523,13 @@ export const memoryLocations: MemoryLocation[] = [
         "description": "A special New Year ride representing fresh beginnings and new starts. Scaling the heights of the hill together, making a promise to make this year our most beautiful one yet.",
         "image": "/images/champakadhama_betta.jpg",
         "quote": "Starting the year exactly where I belong—by your side."
+      },
+      {
+        "id": "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f",
+        "title": "Hillside Exposure",
+        "description": "Wandering to the secluded backside of the hill, our quiet escape turned wildly intimate. Away from any prying eyes, I stripped your top completely off. With your pants pushed down to your knees and your chest exposed to the open air, you stood there stunningly semi-naked. The intense contrast of the cool, sweeping breeze against your bare skin and the raw, burning heat between us made that moment completely unforgettable.",
+        "image": "/images/champakadhama_breeze.jpg",
+        "quote": "Standing semi-naked in the sweeping breeze, our raw body heat was the only thing that mattered."
       }
     ]
   },
@@ -469,10 +540,10 @@ export const memoryLocations: MemoryLocation[] = [
     "memories": [
       {
         "id": "4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f",
-        "title": "Shadows and Desires",
-        "description": "Beneath the secluded, shady canopy of the forest, the rest of the world completely faded. Deeply intimate moments, electric touches, and a passionate, heavy kiss that set my soul on fire amidst the wild.",
+        "title": "Wild and Exposed",
+        "description": "Hidden deep in the shady canopy, the wild thrill of being exposed outdoors completely took over. We stripped down right there in the forest. Having sex beneath the trees, feeling your bare skin against the earth and the deep, wet heat of you with every thrust, was intensely hot. A raw, primal rush of sexual pleasure in the wild.",
         "image": "/images/bannerghatta_forest.jpg",
-        "quote": "Wild, untamed, and entirely consumed by you."
+        "quote": "Fucking out in the open, fueled by the primal thrill of getting caught."
       }
     ]
   },
@@ -525,10 +596,10 @@ export const memoryLocations: MemoryLocation[] = [
     "memories": [
       {
         "id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
-        "title": "Naked Truths & Tender Fire",
-        "description": "Our first truly intimate date in a room of our own. The moment the door closed, all pretenses melted away. Bared to one another, our feverish kisses traced every inch—a beautifully intense, fiery exploration of love from top to bottom.",
+        "title": "Our First Time",
+        "description": "The unforgettable day of our first truly private date—the very first time I entered you. Standing completely naked, I kissed and tasted every single inch of your bare body from top to bottom. Sliding deep inside you for the first time was an indescribable rush of pure pleasure. The heat of your tight grip around me as we made love is a high I will never forget.",
         "image": "/images/regal_suite.jpg",
-        "quote": "Skin to skin, soul to soul; the most beautiful language we've ever spoken."
+        "quote": "The incredible high of finally claiming your body and feeling you take all of me."
       }
     ]
   },
@@ -567,10 +638,10 @@ export const memoryLocations: MemoryLocation[] = [
     "memories": [
       {
         "id": "1d2e3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a",
-        "title": "Sheer Seduction",
-        "description": "You stood there looking stunningly hot in that sheer, transparent outfit, teasingly revealing your inner wear. The delicate red rose paled completely in comparison to the deep flush on your bare skin and the raw, intoxicating passion between us.",
+        "title": "Sheer Tease",
+        "description": "You drove me absolutely crazy standing there in that transparent outfit, your bare lingerie teasing me right through the sheer fabric. You looked incredibly hot and seductive holding that rose. We ripped those clothes off, ending in a hard, passionate session of sweaty sex, completely devouring each other in that room.",
         "image": "/images/mysore_pvt.jpg",
-        "quote": "An intoxicating vision that set my heart ablaze."
+        "quote": "A transparent tease that ended in a completely naked, sweaty surrender."
       }
     ]
   },
@@ -595,10 +666,10 @@ export const memoryLocations: MemoryLocation[] = [
     "memories": [
       {
         "id": "3f4a5b6c-7d8e-9f0a-1b2c-3d4e5f6a7b8c",
-        "title": "Lakeside Surrender",
-        "description": "A quiet escape from Bangalore to a calm, secluded lake bank. Embracing each other in pure, naked vulnerability, the cool breeze mixing beautifully with our radiating body heat in a refreshing, deeply intimate communion by the water.",
+        "title": "Naked by the Lake",
+        "description": "A total escape where we could just strip down and be completely naked by the calm lake bank. The thrill of having sex right there in the open, the cool breeze hitting our heated, sweaty bodies as we rode out our climaxes together, was incredibly refreshing. Unfiltered, deeply sexual intimacy out in the open air.",
         "image": "/images/gundamagere_kere.jpg",
-        "quote": "Unveiled and unfiltered, perfectly safe in your arms."
+        "quote": "Completely bare by the water, our bodies moving as naturally as the waves."
       }
     ]
   },
@@ -627,6 +698,90 @@ export const memoryLocations: MemoryLocation[] = [
         "description": "Our frequent, thrilling bunks from tuition to escape into the air-conditioned aisles of Nexus mall. Stolen hours of window shopping and holding your hand when we probably should have been studying.",
         "image": "/images/nexus_mall.jpg",
         "quote": "The best lessons I learned were the ones while skipping class with you."
+      },
+      {
+        "id": "d74e8f1a-3c2b-4b9d-8a5f-1e6c7d9b0a2f",
+        "title": "Fitting Room Rush",
+        "description": "Bunking tuition took a wildly hot turn when we slipped into that cramped trial room together. The intense adrenaline of sneaking around and trying to stay quiet made every touch feel electric. Pressing you against the mirror, stripping down hurriedly among the hanging clothes, and having quick, breathless sex right there in the shop. A sudden, intensely hot rush of pure desire hidden behind a single locked door.",
+        "image": "/images/nexus_trial_room.jpg",
+        "quote": "The ultimate thrill wasn't just skipping class, but taking you right there behind a locked door."
+      }
+    ]
+  },
+  {
+    "id": "e4b3c2d1-f5a6-7b8c-9d0e-1f2a3b4c5d6e",
+    "name": "RG Suites Sarjapur",
+    "coordinates": [12.9224, 77.6833],
+    "memories": [
+      {
+        "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "title": "The Cafe Escalation",
+        "description": "What started as a normal cafe date turned into something completely unexpected. The tension boiled over, and the second we got to the room, I took you hard and raw. No slow build-up, no waiting—just an explosive, intense release that caught us both completely off guard.",
+        "image": "/images/rg_suites_cafe.jpg",
+        "quote": "An unexpected spark that ignited into raw heat the second the door closed."
+      },
+      {
+        "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+        "title": "The Afternoon Ritual",
+        "description": "Our absolute favorite routine after sneaking away from classes. Getting in, freshening up, and then pulling you into a warm, naked cuddle. Having you sit on me as we slowly transitioned from sweet affection to deep, burning lust.",
+        "image": "/images/rg_suites_cuddle.jpg",
+        "quote": "The perfect transition from a sweet embrace to complete surrender."
+      },
+      {
+        "id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+        "title": "Slow Tease",
+        "description": "I loved taking my time with you, Chinni. Slowly grabbing and squeezing your breasts, playing with you and teasing you until you couldn't take it anymore. Lifting your top off to expose your skin and claiming you right there.",
+        "image": "/images/rg_suites_tease.jpg",
+        "quote": "Building the fire slowly, touch by agonizingly slow touch."
+      },
+      {
+        "id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
+        "title": "Uncovering You",
+        "description": "The intoxicating rush of placing hot, wet kisses all down your neck. Reaching around to unclasp your bra, tossing it aside, and finally setting your breasts free for my hands and mouth to explore completely.",
+        "image": "/images/rg_suites_neck.jpg",
+        "quote": "Stripping away the layers until there was nothing left to hide."
+      },
+      {
+        "id": "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
+        "title": "Taste and Touch",
+        "description": "The taste of your skin and the intense heat of your body. Sucking your breasts and feeling you arch into me with every pull. Slipping my fingers deep inside you, feeling how incredibly wet you were for me as I finally pulled your pants off.",
+        "image": "/images/rg_suites_touch.jpg",
+        "quote": "Tasting every inch, feeling you melt right into my hands."
+      },
+      {
+        "id": "6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c",
+        "title": "Raw Connection",
+        "description": "The intense rush of finally penetrating you, sliding deep inside with absolutely nothing between us. The first of those deeply raw moments where we completely lost ourselves in the slick friction and body heat.",
+        "image": "/images/rg_suites_raw1.jpg",
+        "quote": "Skin to skin, completely unfiltered and deeply connected."
+      },
+      {
+        "id": "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d",
+        "title": "Unfiltered Heat",
+        "description": "Another time we just needed it completely raw. The primal feeling of your tight grip around my cock, feeling every single sensation and deeply intimate twitch without any barrier holding us back.",
+        "image": "/images/rg_suites_raw2.jpg",
+        "quote": "No barriers, just the raw intensity of two bodies moving as one."
+      },
+      {
+        "id": "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e",
+        "title": "Six Rounds of Stamina",
+        "description": "Those absolute marathon sessions where time just completely disappeared. Pushing through six incredible rounds of sex, our bodies completely synced, sweating and thrusting together until we had absolutely nothing left to give.",
+        "image": "/images/rg_suites_rounds.jpg",
+        "quote": "Going until we were completely spent, and then going again."
+      },
+      {
+        "id": "9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f",
+        "title": "The College Bunk",
+        "description": "The sheer thrill of sneaking away from the college routine. Between 12 and 5, the world outside simply didn't exist. It was just a locked door, tangled sheets, and the heavy adrenaline of hiding away just to fuck all afternoon.",
+        "image": "/images/rg_suites_bunk.jpg",
+        "quote": "Stolen hours from the real world, spent locked away in ours."
+      },
+      {
+        "id": "0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a",
+        "title": "5 PM Exhaustion",
+        "description": "The sweet, heavy exhaustion that hits right before 5 PM. After five straight hours of kissing, touching, going raw, and penetrating, laying tangled together completely spent and satisfied before having to get dressed and step back outside.",
+        "image": "/images/rg_suites_exhaustion.jpg",
+        "quote": "The beautiful exhaustion of an afternoon spent entirely on you."
       }
     ]
   }
