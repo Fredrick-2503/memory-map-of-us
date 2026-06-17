@@ -4,8 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "encrypt-memories": "node scripts/encrypt-memories.cjs",
+    "predev": "npm run encrypt-memories",
     "dev": "vite",
+    "prebuild": "npm run encrypt-memories",
     "build": "vite build",
+    "prebuild:dev": "npm run encrypt-memories",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"

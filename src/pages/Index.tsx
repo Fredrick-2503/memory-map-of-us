@@ -3,8 +3,13 @@ import { useState } from "react";
 import LandingScreen from "../components/LandingScreen";
 import MemoryMap from "../components/MemoryMap";
 import AudioPlayer from "../components/AudioPlayer";
+import { MemoryLocation } from "../data/memories";
 
-const Index = () => {
+interface IndexProps {
+  memories: MemoryLocation[];
+}
+
+const Index = ({ memories }: IndexProps) => {
   const [entered, setEntered] = useState(false);
   const [audioEnabled, setAudioEnabled] = useState(false);
   
@@ -26,14 +31,12 @@ const Index = () => {
         <LandingScreen onEnter={handleEnterMap} onToggleAudio={handleToggleAudio} audioEnabled={audioEnabled} />
       ) : (
         <div className="animate-fade-in h-full w-full">
-          <MemoryMap onToggleAudio={handleToggleAudio} audioEnabled={audioEnabled} />
+          <MemoryMap onToggleAudio={handleToggleAudio} audioEnabled={audioEnabled} memories={memories} />
         </div>
-        
       )}
       
       {/* {audioEnabled && <AudioPlayer />} */}
       <AudioPlayer isPlaying={audioEnabled} />
-
     </div>
   );
 };
